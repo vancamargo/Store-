@@ -6,7 +6,7 @@ using System;
 namespace Store.Tests
 {
     [TestClass]
-    public class OrderTests
+    public class ProductQueriesTests
     {
         private readonly Customer _customer = new Customer("Vanessa Camargo", "vanessa@gmail.com");
 
