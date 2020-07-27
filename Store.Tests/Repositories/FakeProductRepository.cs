@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Store.Tests.Repositories
 {
-    public class FakeOrderRepository : IProductRepository
+    public class FakeProductRepository : IProductRepository
     {
         public IEnumerable<Product> Get(IEnumerable<Guid> ids)
         {
